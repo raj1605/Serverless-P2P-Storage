@@ -9,7 +9,7 @@ data = "a"*1024
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 s.connect((HOST, PORT))
-iterations = 1000
+iterations = 10000
 
 t0 = time.time()
 for i in range(iterations):
